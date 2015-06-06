@@ -1,0 +1,39 @@
+root@sathya-virtual-machine:~# sudo apt-get install libncurses5-dev gcc make git exuberant-ctags
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+gcc is already the newest version.
+make is already the newest version.
+git is already the newest version.
+The following extra packages will be installed:
+  libtinfo-dev
+Suggested packages:
+  ncurses-doc
+The following NEW packages will be installed:
+  exuberant-ctags libncurses5-dev libtinfo-dev
+0 upgraded, 3 newly installed, 0 to remove and 372 not upgraded.
+Need to get 366 kB of archives.
+After this operation, 1,812 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main exuberant-ctags amd64 1:5.9~svn20110310-7ubuntu0.1 [120 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu/ trusty/main libtinfo-dev amd64 5.9+20140118-1ubuntu1 [76.3 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu/ trusty/main libncurses5-dev amd64 5.9+20140118-1ubuntu1 [170 kB]
+Fetched 366 kB in 6s (60.4 kB/s)                                               
+Selecting previously unselected package exuberant-ctags.
+(Reading database ... 173987 files and directories currently installed.)
+Preparing to unpack .../exuberant-ctags_1%3a5.9~svn20110310-7ubuntu0.1_amd64.deb ...
+Unpacking exuberant-ctags (1:5.9~svn20110310-7ubuntu0.1) ...
+Selecting previously unselected package libtinfo-dev:amd64.
+Preparing to unpack .../libtinfo-dev_5.9+20140118-1ubuntu1_amd64.deb ...
+Unpacking libtinfo-dev:amd64 (5.9+20140118-1ubuntu1) ...
+Selecting previously unselected package libncurses5-dev:amd64.
+Preparing to unpack .../libncurses5-dev_5.9+20140118-1ubuntu1_amd64.deb ...
+Unpacking libncurses5-dev:amd64 (5.9+20140118-1ubuntu1) ...
+Processing triggers for man-db (2.6.7.1-1) ...
+Setting up exuberant-ctags (1:5.9~svn20110310-7ubuntu0.1) ...
+update-alternatives: using /usr/bin/ctags-exuberant to provide /usr/bin/ctags (ctags) in auto mode
+update-alternatives: using /usr/bin/ctags-exuberant to provide /usr/bin/etags (etags) in auto mode
+Setting up libtinfo-dev:amd64 (5.9+20140118-1ubuntu1) ...
+Setting up libncurses5-dev:amd64 (5.9+20140118-1ubuntu1) ...
+root@sathya-virtual-machine:~# 
+

@@ -1,0 +1,67 @@
+copying and moving files
+When copying files from one directory to another you need to know for certain which directory is the current working directory. If you are not sure, use the pwd command.
+Make a copy in the current directory
+
+             cp oldfilename newfilename
+
+eg
+
+             cp file1.html file2.html
+
+Make a copy in a sub-directory of the current directory
+
+             cp filename dir-name
+
+eg
+
+             cp file1.html public_html
+
+    This will make a copy of file1.html within the public_html directory (assuming the directory exists). 
+
+Move a file into a sub-directory
+
+             mv filename dir-name
+
+    The cp command makes a copy of the file with the new name or in the new location, and leaves the original file in place. If you use the mv command the file is moved, so the original is deleted and the only copy is the one in the new location.
+
+Re-naming a file
+The mv command can also be used to rename a file while leaving it in the same directory.
+
+             mv oldfilename newfilename
+
+Copying (or moving) to the parent directory
+
+             cp filename .. 
+
+or
+
+             mv filename .. 
+
+    Note the space before the two dots. The two dots represent the parent directory.
+
+Copying (or moving) from the parent directory into the current directory
+You would use the following commands to copy or move a file from the parent directory into the current directory
+
+             cp ../filename . 
+
+or
+
+             mv ../filename .
+
+    The dot at the end of these commands stands for the current directory. Note that there is a space in front of this final dot. 
+
+Copying a file into a sub-directory of a sub-directory
+Suppose you have a sub-directory within your home directory called public_html, and within public_html you have a sub-directory called personal.
+
+If you are currently in your home directory you can copy (or move) a file from your home directory into this sub-sub-directory with the following command:
+
+             cp filename public_html/personal 
+
+or
+
+             mv filename public_html/personal
+
+or if you wanted not only to move the file into the different directory, but also to give it a different name you could use this command:
+
+             mv file1.html public_html/personal/file2.html
+

@@ -1,0 +1,15 @@
+git init
+git add file
+git status 
+git commit
+git push 
+git pull
+git clone
+
+
+git config --global user.name 'sathya24365'
+git config --global user.email 'sathya24365@gmail.com'
+
+https://github.com/sathya24365/mycollection.git
+
+https://www.youtube.com/watch?v=eL_0Ok_Gkas

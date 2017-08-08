@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testBatch name="SoftAP_10_STA" loops="false">
+ <testSuite name="SoftAP_10_STA" iterations="1" shuffled="false" concurrent="true" concurrencyLevel="0" stopOnError="false">
+	
+	<testCase name="Draco" iterations="1">
+	  <test action="STOP_DRACO" iterations="1" duration="30" preTestDelay="1" postTestDelay="1"/>
+	  <test action="LAUNCH_DRACO" iterations="1" duration="30" preTestDelay="1" postTestDelay="1">
+			<config>
+				<property name="xml_file" value="1.3_Draco_CPU_Qblizz_RAM.xml"/>
+			</config>
+	  </test>
+	</testCase>	
+	
+	
+	<testCase name="Soft_AP" iterations="1">
+	<test action="DISABLE_WIFI" iterations="1" duration="2"/>
+	<test action="DISABLE_WIFI" iterations="1" duration="2"/>
+	<test action="ENABLE_BLUETOOTH" iterations="1" duration="15" preTestDelay="0-15" postTestDelay="15-35"/>
+	<test action="CONFIGURE_SOFT_AP" iterations="1" duration="10" postTestDelay="1">
+	<config>
+		<property name="softAPConfigSSID" value="2.0.2"/>
+		<property name="softAPConfigSecurityType" value="Open"/>
+		<property name="softAPConfigPassphrase" value=""/>
+		<property name="softAPConfigPassphraseType" value="ASCII"/>
+	</config>
+	</test>
+	<test action="ENABLE_SOFT_AP" iterations="1" duration="300" postTestDelay="1"/>
+    </testCase>
+	
+	<testCase name="ENABLE_DISABLE_soft AP" iterations="100000">
+	 <test action="ENABLE_SOFT_AP" iterations="1" duration="2" postTestDelay="300"/>
+	  <test action="DISABLE_SOFT_AP" iterations="1" duration="2" postTestDelay="1"/> 
+    </testCase>
+	
+	<testCase name="Bluetooth Seq 1" iterations="10000" preTestDelay="15" postTestDelay="30">
+
+	  <test action="PAIR_BLUETOOTH_DEVICE" iterations="1" duration="45" postTestDelay="0-15">
+      <config>
+
+      <property name="remoteBTDeviceMacAddress" value="00:15:83:6B:CE:81"/>
+      </config>
+      </test>
+	  
+	<test action="UNPAIR_BLUETOOTH_DEVICE" iterations="1" duration="30" postTestDelay="5">
+		<config>
+			<property name=" remoteBTDeviceMacAddress" value="00:15:83:6B:CE:81"/>
+		</config>
+	</test>
+
+
+    </testCase>
+
+	<testCase name="BLE_SCAN" iterations="10000">
+		<test action="START_BLE_SCAN" iterations="1" duration="45" postTestDelay="20"/>
+		<test action="STOP_BLE_SCAN" iterations="1" duration="10" postTestDelay="5"/>
+	</testCase>	
+		
+	<testCase name="BT_SCAN" iterations="10000">
+		<test action="DISCOVER_BLUETOOTH_DEVICES" iterations="1" duration="30" postTestDelay="10"/>
+	</testCase>
+	
+    <testCase name="SA GPS" iterations="10000" preTestDelay="1" postTestDelay="1">
+      <test action="START_GPS" iterations="1" duration="30" preTestDelay="1" postTestDelay="1"/>
+      <test action="STOP_GPS" iterations="1" duration="15" preTestDelay="1" postTestDelay="1"/>
+    </testCase>
+	
+</testSuite>
+</testBatch>
+

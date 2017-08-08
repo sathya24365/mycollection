@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testBatch name="TB1-Setup-2" loops="false">
+  
+  <testSuite name="Setup" iterations="1" preTestDelay="1" postTestDelay="1" shuffled="false" concurrent="false" stopOnError="false">
+  
+    <testCase name="TB1-Setup-2" iterations="1" preTestDelay="1" postTestDelay="1">    
+	  
+	  <test action="ENABLE_WIFI" iterations="1" duration="2" postTestDelay="0"/>
+	  <test action="SCAN_AP" iterations="1" duration="2" postTestDelay="0"/>
+	  
+	  <test action="ADD_WIFI_NETWORK" iterations="1" duration="30" postTestDelay="0">
+        <config>
+          <property name="newWifiConfigSSID" value="DIRECT-91-Android_7a90"/>
+          <property name="newWifiConfigSecurityType" value="WPA"/>
+          <property name="newWifiConfigPassphrase" value="6eRqzQr3"/>
+          <property name="newWifiConfigPassphraseType" value="ASCII"/>		  
+        </config>
+      </test>  
+  
+	  <test action="CONNECT_AP" iterations="1" duration="5" postTestDelay="2"/>
+
+    </testCase>
+	
+	
+  </testSuite>
+ 
+</testBatch>

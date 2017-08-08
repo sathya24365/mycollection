@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testBatch name="SoftAP_10_STA" loops="false">
+ <testSuite name="SoftAP_10_STA" iterations="1" shuffled="false" concurrent="true" concurrencyLevel="0" stopOnError="false">
+	
+<testCase name="Draco" iterations="1">
+  <test action="STOP_DRACO" iterations="1" duration="30" preTestDelay="1" postTestDelay="1"/>
+  <test action="LAUNCH_DRACO" iterations="1" duration="30" preTestDelay="1" postTestDelay="1">
+		<config>
+			<property name="xml_file" value="1.3_Draco_CPU_Qblizz_RAM.xml"/>
+		</config>
+  </test>
+</testCase>	
+
+
+
+<testCase name="Wifi_ON_OFF" iterations="1" preTestDelay="0-15" postTestDelay="0-15">
+	<test action="ENABLE_WIFI" iterations="1" duration="20" postTestDelay="5"/>
+	<test action="ADD_WIFI_NETWORK" iterations="1" duration="5" postTestDelay="0">
+		<config>
+          <property name="newWifiConfigSSID" value="AutoCE-SAP"/>
+          <property name="newWifiConfigSecurityType" value="NONE"/>
+        </config>
+    </test>
+	<test action="SCAN_AP" iterations="1" duration="20" postTestDelay="5"/>
+	<test action="CONNECT_AP" iterations="1" duration="45" preTestDelay="0-15">
+	<config>
+		<property name="WiFiAPPwd" value=""/>
+		<property name="WiFiAPName" value="AutoCE-SAP"/>
+	</config>
+	</test>
+</testCase>
+
+<testCase name="Bluetooth Seq 1" iterations="10000" preTestDelay="15" postTestDelay="30">
+
+    <test action="ENABLE_BLUETOOTH" iterations="1" duration="15" preTestDelay="0-15" postTestDelay="15-35"/>
+	<test action="PAIR_BLUETOOTH_DEVICE" iterations="1" duration="45" preTestDelay="0-15" postTestDelay="0-15">
+	<config>
+		<!--BTMAC-2-->
+		<property name="remoteBTDeviceMacAddress" value="00:15:83:6B:CE:AC"/>
+	</config>
+      </test>
+	  <test action="DISABLE_BLUETOOTH" iterations="1" duration="15" postTestDelay="300"/>
+</testCase>
+
+	<testCase name="BLE_SCAN" iterations="10000">
+		<test action="START_BLE_SCAN" iterations="1" duration="45" postTestDelay="20"/>
+		<test action="STOP_BLE_SCAN" iterations="1" duration="10" postTestDelay="5"/>
+	</testCase>	
+
+	<testCase name="SCAN_AP" iterations="10000">
+		<test action="SCAN_AP" iterations="1" duration="20" postTestDelay="5"/>
+	</testCase>
+		
+	<testCase name="BT_SCAN" iterations="10000">
+		<test action="DISCOVER_BLUETOOTH_DEVICES" iterations="1" duration="30" postTestDelay="10"/>
+	</testCase>
+	
+    <testCase name="SA GPS" iterations="10000" preTestDelay="1" postTestDelay="1">
+		<test action="START_GPS" iterations="1" duration="10" preTestDelay="1" postTestDelay="1"/>
+		<test action="SCAN_GPS" iterations="1" duration="15" postTestDelay="1">
+		 <config>
+			<property name="type" value=" discovery"/>	
+		  </config>
+		</test>	  
+		<test action="STOP_GPS" iterations="1" duration="5" preTestDelay="1" postTestDelay="1"/>
+    </testCase>
+	
+</testSuite>
+</testBatch>
+

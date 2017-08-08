@@ -1,0 +1,51 @@
+
+<test action="ENABLE_BLUETOOTH" iterations="1" duration="2" preTestDelay="0" postTestDelay="0"/>
+<test action="DISABLE_BLUETOOTH" iterations="1" duration="1" preTestDelay="0" postTestDelay="0"/>	  
+
+
+<test action="ENABLE_WIFI" iterations="1" duration="3" preTestDelay="0" postTestDelay="0"/>
+<test action="DISABLE_WIFI" iterations="1" duration="1" preTestDelay="0" postTestDelay="0"/>
+
+<test action="ENABLE_SOFT_AP" iterations="1" duration="3" postTestDelay="1"/>
+<test action="DISABLE_SOFT_AP" iterations="1" duration="2" postTestDelay="1"/>
+
+<test action="SCAN_AP" iterations="1" duration="2" preTestDelay="0" postTestDelay="0"/>
+<test action="CONNECT_AP" iterations="1" duration="5" preTestDelay="0" postTestDelay="0">
+	<config>
+		<property name="WiFiAPPwd" value=""/>
+		<property name="WiFiAPName" value="sample_ap"/>
+	</config>
+</test>
+<test action="DISCONNECT_AP" iterations="1" duration="2" preTestDelay="0" postTestDelay="0"/>
+
+
+<test action="MAKE_MO_CALL" iterations="1" preTestDelay="10" duration="600" postTestDelay="0">
+<config>
+       <property name="MOCallDestinationNumber" value="18001088378"/>
+</config>
+</test>
+
+
+<test action="PAIR_BLUETOOTH_DEVICE" iterations="1" duration="60" postTestDelay="5">
+<config>
+<property name="remoteBTDeviceMacAddress" value="00:0D:FD:28:2F:76"/>
+<property name="targetDeviceType" value="speaker"/>
+</config>
+</test>
+
+<test action="BT_SINK_CONNECT" iterations="1" duration="10" postTestDelay="0">
+<config>
+<property name="remoteBTDeviceMacAddress" value="FC:58:FA:0A:85:9E"/> 
+<property name="profile" value="2"/>
+</config>
+</test>
+
+<test action="START_SCAN_BLE" iterations="10" duration="45" postTestDelay="10">
+<config>					
+	<property name="scanmode" value="1"/>
+</config>
+</test>
+
+
+
+

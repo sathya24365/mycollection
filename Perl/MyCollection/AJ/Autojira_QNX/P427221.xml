@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CrashScopeConfiguration>
+  <scenarioFile></scenarioFile>
+  <open_report_after_process>False</open_report_after_process>
+  <jira_devicetype>ADP</jira_devicetype>
+  <chk_batch>False</chk_batch>
+  <username>c_satyas</username>
+  <output_compressed_file>True</output_compressed_file>
+  <user_domain></user_domain>
+  <file_ir>False</file_ir>
+  <output_folder></output_folder>
+  <rbInternalDevice>True</rbInternalDevice>
+  <output_Text>True</output_Text>
+  <clear_logger_each_run>True</clear_logger_each_run>
+  <chk_default_folder>True</chk_default_folder>
+  <customized_compress_output>C:\TEMP\CrashScope </customized_compress_output>
+  <jira_sn>N10K88DGM</jira_sn>
+  <delete_binary_after_compression>False</delete_binary_after_compression>
+  <disable_compress_for_cmd>False</disable_compress_for_cmd>
+  <force_run>False</force_run>
+  <customized_compress_folder>False</customized_compress_folder>
+  <create_files_when_ssdump>True</create_files_when_ssdump>
+  <jira_mcn>10-NL561-200</jira_mcn>
+  <disable_compress_for_batch>False</disable_compress_for_batch>
+  <jira_cust_builds>CustomBuildConfig.txt</jira_cust_builds> 
+  <JiraConfig>
+    <JiraProjConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <dumpType>System</dumpType>
+      <jiraTicketingEnabled>None</jiraTicketingEnabled>
+      <jiraComponent>APQ8064</jiraComponent>
+      <jiraCCUsers>szaman;ksraju;satishm</jiraCCUsers>
+      <jiraCCGroups />
+      <jiraTestArea />
+      <jiraProject>CNSSDEBUG</jiraProject>
+      <jiraLabels></jiraLabels>
+      <jiraTitlePrefix>[PDT-CNSS]</jiraTitlePrefix>
+      <jiraFilters />
+    </JiraProjConfig>
+    <JiraProjConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <dumpType>BT</dumpType>
+      <jiraTicketingEnabled>All</jiraTicketingEnabled>
+      <jiraComponent>APQ8064</jiraComponent>
+      <jiraCCUsers>szaman;ksraju;satishm</jiraCCUsers>
+      <jiraCCGroups />
+      <jiraTestArea />
+      <jiraProject>CNSSDEBUG</jiraProject>
+      <jiraLabels />
+      <jiraTitlePrefix>[PDT_CNSS]</jiraTitlePrefix>
+      <jiraFilters />
+    </JiraProjConfig>
+    <JiraProjConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <dumpType>Tombstone</dumpType>
+      <jiraTicketingEnabled>None</jiraTicketingEnabled>
+      <jiraComponent />
+      <jiraCCUsers />
+      <jiraCCGroups />
+      <jiraTestArea />
+      <jiraProject />
+      <jiraLabels />
+      <jiraTitlePrefix />
+      <jiraFilters />
+    </JiraProjConfig>
+    <JiraProjConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <dumpType>GPU</dumpType>
+      <jiraTicketingEnabled>None</jiraTicketingEnabled>
+      <jiraComponent />
+      <jiraCCUsers />
+      <jiraCCGroups />
+      <jiraTestArea />
+      <jiraProject />
+      <jiraLabels />
+      <jiraTitlePrefix />
+      <jiraFilters />
+    </JiraProjConfig>
+    <JiraProjConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <dumpType>Others</dumpType>
+      <jiraTicketingEnabled>None</jiraTicketingEnabled>
+      <jiraComponent />
+      <jiraCCUsers />
+      <jiraCCGroups />
+      <jiraTestArea />
+      <jiraProject />
+      <jiraLabels />
+      <jiraTitlePrefix />
+      <jiraFilters />
+    </JiraProjConfig>
+  </JiraConfig>
+</CrashScopeConfiguration>

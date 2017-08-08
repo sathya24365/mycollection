@@ -1,0 +1,16 @@
+<RTT>
+	<Req_ID>1</Req_ID>
+	<RTT_Cmd>1</RTT_Cmd> 
+	<iterations>5</iterations>
+	<interval>2</interval>
+</RTT>
+
+<!--
+
+RTT Range Request                 : 1 iterations interval
+RTT Range Cancel                  : 2 iterations interval
+RTT Get Capability                : 3 iterations interval
+RTT Set LCI                       : 4 iterations interval
+RTT Set LCR                       : 5 iterations interval
+
+ -->

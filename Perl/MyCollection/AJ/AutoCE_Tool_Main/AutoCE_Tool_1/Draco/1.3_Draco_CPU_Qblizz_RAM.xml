@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testBatch name="1.3_DRACO_CPU_Qblizz_RAM" loops="true">
+	<testSuite name="Dev_DracoCleanup" iterations="1" preTestDelay="0" postTestDelay="10" shuffled="false">
+        <testCase name="cleanup" iterations="1" >                                       
+              <test action="STOP_MS_MEMEATER" iterations="1" duration="10" />
+              <test action="STOP_MS_CACHE_BLAST" iterations="1" duration="10"/>
+              <test action="STOP_CPU_LOOK_BUSY" iterations="1" duration="10"/>
+              <test action="STOP_CPU_HOTPLUG" iterations="1" duration="10" />
+              <test action="STOP_MS_MEMFIDGET" iterations="1" duration="10"/>
+              <test action="STOP_MS_CACHE_BENCH" iterations="1" duration="10"/>
+              <test action="STOP_CPU_SPEED" iterations="1" duration="10" />
+              <test action="STOP_GPU_STRESS" iterations="1" duration="10"/>                                 
+        </testCase>
+     </testSuite>
+
+	<testSuite name="CPU_Qblizz_RAM" iterations="10" preTestDelay="60-120" postTestDelay="300-400" shuffled="true" concurrent="true" concurrencyLevel="0" stopOnError="false">
+		<testCase name="CPUStress" iterations="1" preTestDelay="0-120" postTestDelay="0-120">
+			<test action="START_CPU_LOOK_BUSY" iterations="1" duration="600-900" preTestDelay="0-120" postTestDelay="0-120">
+				<config>
+					<property name="cpuUtilization" value="80"/>
+					<property name="numOfCores" value="4"/>
+					<!--  Utilization mode ('fixed' or 'curve') -->
+					<property name="utilizationMode" value="curve"/>
+					<!-- Offset of peak utilization within curve period, in seconds (append 'm', 'h', 'd' for other units) -->
+					<property name="peakUtilizationOffset" value="2m"/>
+					<!--  Duration of utilization curve period, in seconds (append 'm', 'h', 'd' for other units) -->
+					<property name="utilizationCurveDuration" value="2m"/>
+				</config>
+			</test>
+			<test action="STOP_CPU_LOOK_BUSY" iterations="1" duration="30" preTestDelay="0-120" postTestDelay="0-120"/>
+		</testCase>
+		
+		<testCase name="DDRStress" iterations="5-7" preTestDelay="0-120" postTestDelay="0-120">
+			<test action="START_MS_DDR" iterations="1" duration="90" preTestDelay="0-120" postTestDelay="0-120">
+				<config>
+					<property name="testMode" value="P"/>
+					<property name="startSize" value="800"/>
+					<property name="endSize" value="400000"/>
+					<property name="totalSize" value="8000000"/>
+					<property name="errorCheck" value="F"/>
+					<property name="repeatCount" value="0"/>
+					<property name="testSamples" value="4"/>
+				</config>
+			</test>
+			<test action="STOP_MS_DDR" iterations="1" duration="30" preTestDelay="0-120" postTestDelay="0-120"/>
+		</testCase>
+		
+		<testCase name="RAMStress_DISABLED_FOR_NOW" iterations="0" preTestDelay="0-120" postTestDelay="0-120">
+			<test action="START_MS_MEMEATER" iterations="1" duration="600-900" preTestDelay="0-120" postTestDelay="0-120">
+				<config>
+					<property name="meMemorySizes" value="80"/>
+					<!-- Gradual inputs are denoted as k.K for KB  or m/M for MB -->
+					<property name="meGradual" value="true"/>
+				</config>
+			</test>
+			<test action="STOP_MS_MEMEATER" iterations="1" duration="30" preTestDelay="0-120" postTestDelay="0-120">
+			</test>
+		</testCase>
+			
+	</testSuite>	
+</testBatch>

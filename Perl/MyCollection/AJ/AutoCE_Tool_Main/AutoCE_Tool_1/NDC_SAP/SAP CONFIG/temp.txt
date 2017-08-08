@@ -1,0 +1,26 @@
+`iwpriv wlan0 initAP`
+`ifconfig softap.0 192.168.3.1 up`
+`hostapd -ddd /data/misc/wifi/softap.conf`
+`dnsmasq -i softap.0 --no-daemon --no-resolv --no-poll --dhcp-range=192.168.3.100,192.168.3.200,1h`
+
+
+insmod /system/lib/modules/wlan.ko
+hostapd -ddd /data/misc/wifi/hostapd.conf
+
+ifconfig wlan0 192.168.3.1 up
+
+dnsmasq -i wlan0 --no-daemon --no-resolv --no-poll --dhcp-range=192.168.3.100,192.168.3.200,1h
+
+adb -s bbdebc2  shell insmod /system/lib/modules/wlan.ko
+adb -s bbdebc2  shell  ndc softap qccmd set enable_softap=1
+adb -s bbdebc2  shell  ndc softap qccmd set ssid=AndroidAPstach14
+adb -s bbdebc2  shell  ndc softap qccmd set channel=6
+adb -s bbdebc2  shell  ndc softap qccmd set security_mode=3
+adb -s bbdebc2  shell  ndc softap qccmd set auth_algs=1
+adb -s bbdebc2  shell  ndc softap qccmd set rsn_pairwise=CCMP
+adb -s bbdebc2  shell  ndc softap qccmd set wpa_passphrase=12345678
+adb -s bbdebc2  shell  ndc softap qccmd set commit
+adb -s bbdebc2  shell  ndc softap startap
+adb -s bbdebc2  shell  ifconfig wlan0 192.168.3.1
+adb -s bbdebc2  shell  /system/bin/dnsmasq -x /data/dnsmasq.pid --no-resolv --no-poll --dhcp-range=192.168.3.2,192.168.3.244 & 
+just change the serial ID

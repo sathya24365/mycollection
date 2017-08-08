@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testBatch name="Test1" loops="true">
+	<testSuite name="SCAN" iterations="9988775" preTestDelay="1" postTestDelay="1" shuffled="false" concurrent="true" concurrencyLevel="1" stopOnError="false">
+	
+		<testCase name="BLE_CONNECT_DISCONNECT" iterations="1">
+			<test action="ENABLE_BLUETOOTH" iterations="1" duration="10" postTestDelay="10"/>
+			<test action="CONNECT_BLE_DEVICE" iterations="1" duration="45" postTestDelay="20">
+				<config>					
+					<property name="remoteBTDeviceMacAddress" value="00:15:83:64:B3:61"/>
+				</config>
+			</test>
+				
+			<test action="DISCONNECT_BLE_DEVICE" iterations="1" duration="45" postTestDelay="10">
+				<config>					
+                    <property name="remoteBTDeviceMacAddress" value="00:15:83:6B:CE:81"/>
+				</config>
+			</test>
+		</testCase>	
+		
+		<testCase name="BLE_SCAN" iterations="1">
+			<test action="START_BLE_SCAN" iterations="1" duration="45" postTestDelay="20"/>
+			<test action="STOP_BLE_SCAN" iterations="1" duration="10" postTestDelay="5"/>
+		</testCase>	
+		
+		<testCase name="BT_SCAN" iterations="1">
+			<test action="DISCOVER_BLUETOOTH_DEVICES" iterations="1" duration="30" postTestDelay="10"/>
+		</testCase>	
+		
+	</testSuite>
+</testBatch>

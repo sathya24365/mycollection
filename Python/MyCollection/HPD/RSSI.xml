@@ -1,0 +1,11 @@
+<RSSI>
+	<Req_ID>1</Req_ID>
+	<WFC_Cmd>3</WFC_Cmd> 
+	<Max_Rssi>78</Max_Rssi>
+	<Min_Rssi>72</Min_Rssi>
+	<iterations>10</iterations>
+	<interval>2</interval>
+</RSSI>
+
+<!--3 Start monitoring for RSSI -->
+<!--4 Stop monitoring for RSSI -->

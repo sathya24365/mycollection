@@ -1,0 +1,14 @@
+5G HT20
+	
+hostapd.conf:
+	
+hw_mode=a; 
+ieee80211n=1	
+
+WCNSS_qcom_cfg.ini:
+
+gDot11Mode=4;
+gChannelBondingMode5GHz=0
+
+
+

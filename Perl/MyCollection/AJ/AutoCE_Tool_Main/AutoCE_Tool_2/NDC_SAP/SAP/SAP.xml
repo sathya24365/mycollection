@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testBatch name="SoftAP_10_STA" loops="false">
+ <testSuite name="SoftAP_10_STA" iterations="1" shuffled="false" concurrent="false" concurrencyLevel="0" stopOnError="false">
+	
+	<testCase name="Soft_AP" iterations="1">
+	<test action="DISABLE_WIFI" iterations="1" duration="2"/>
+	<test action="CONFIGURE_SOFT_AP" iterations="1" duration="10" postTestDelay="1">
+	<config>
+		<property name="softAPConfigSSID" value="2.0.2"/>
+		<property name="softAPConfigSecurityType" value="Open"/>
+		<property name="softAPConfigPassphrase" value=""/>
+		<property name="softAPConfigPassphraseType" value="ASCII"/>
+	</config>
+	</test>
+	<test action="ENABLE_SOFT_AP" iterations="1" duration="10" postTestDelay="1"/>
+    </testCase>
+</testSuite>
+</testBatch>
+

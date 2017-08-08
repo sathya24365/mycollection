@@ -1,0 +1,4 @@
+up time: 13 days, 03:02:46, idle time: 104 days, 20:25:32, sleep time: 00:00:00
+up time: 00:12:40, idle time: 01:35:10, sleep time: 00:00:00
+
+uptime | busybox cut -c 13-16

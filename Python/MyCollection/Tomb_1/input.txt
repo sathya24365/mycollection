@@ -1,0 +1,4 @@
+name: bluedroid wake/  >>> com.android.bluetooth <<<
+name: BT Service Call  >>> com.android.bluetooth <<<
+Cmd line: com.caf.fmradio
+Cmd line: com.android.bluetooth

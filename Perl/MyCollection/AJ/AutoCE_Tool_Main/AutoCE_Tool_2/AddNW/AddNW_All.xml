@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testBatch name="AddNW_All" loops="false">
+  <testSuite name="AddNW" iterations="1" preTestDelay="1" postTestDelay="1" shuffled="false" concurrent="false" stopOnError="false">
+
+    <testCase name="ENABLE_AddNW_All" iterations="1" preTestDelay="1" postTestDelay="1">    
+	  
+	  <test action="ENABLE_WIFI" iterations="1" duration="30" postTestDelay="10-30"/>
+	  <test action="SCAN_AP" iterations="1" duration="30" postTestDelay="0-15"/>
+	  
+ 
+	  <test action="ADD_WIFI_NETWORK" iterations="1" duration="5" postTestDelay="0">
+        <config>
+          <property name="newWifiConfigSSID" value="AutoCE_2G"/>
+          <property name="newWifiConfigSecurityType" value="NONE"/>
+        </config>
+      </test>
+	  
+	  <test action="ADD_WIFI_NETWORK" iterations="1" duration="5" postTestDelay="0">
+        <config>
+          <property name="newWifiConfigSSID" value="AutoCE_5G"/>
+          <property name="newWifiConfigSecurityType" value="NONE"/>
+        </config>
+      </test>	  
+	  <test action="CONNECT_AP" iterations="1" duration="5" postTestDelay="30"/>
+    </testCase>	
+  </testSuite> 
+</testBatch>

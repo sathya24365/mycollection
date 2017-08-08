@@ -1,0 +1,11 @@
+<NAT>
+	<Req_ID>1</Req_ID>
+	<WFC_Cmd>1</WFC_Cmd>
+	<IP_packet_length>100</IP_packet_length>
+	<IP_packet_Hex>64</IP_packet_Hex>
+	<source_mac>00:0A:F5:73:55:88</source_mac>	
+	<dest_mac>E4:F4:C6:0A:D0:F5</dest_mac>
+	<period_in_msec>2000</period_in_msec>
+	<iterations>5</iterations>
+	<interval>2</interval>
+</NAT>

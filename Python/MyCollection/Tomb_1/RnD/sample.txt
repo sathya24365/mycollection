@@ -1,0 +1,28 @@
+			# with open('input.txt', 'r') as file1:
+				# for line1 in file1:
+					# with open(f, 'r') as file2:
+						# for line2 in file2:	
+							# if line1 == line2:
+								# print "match"
+								# print f
+								
+			# with open(f, 'r') as file:
+				# for line in file:	
+					# print line
+					# if ">>> com.android.settings <<<" in line:
+						# print "match", f
+
+# print f
+# with open('input.txt', 'r') as file1:
+# with open('f', 'r') as file2:
+# print file1
+# same = set(file1).intersection(file2)
+# same.discard('\n')
+# print same
+
+# filecmp.cmp('file1', 'file2') 
+
+# open('f', 'r').read().find('com.wlan.wlanservice')
+
+# if 'com.wlan.wlanservice' in open('f').read():
+# print match

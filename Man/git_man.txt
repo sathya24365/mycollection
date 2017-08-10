@@ -11,5 +11,7 @@ git config --global user.name 'sathya24365'
 git config --global user.email 'sathya24365@gmail.com'
 
 https://github.com/sathya24365/mycollection.git
+git clone git@github.com:sathya24365/mycollection.git Perl\PFlash\Repo
+
 
 https://www.youtube.com/watch?v=eL_0Ok_Gkas

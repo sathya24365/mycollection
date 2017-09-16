@@ -1,0 +1,65 @@
+Configure the Cisco 2500 Series Wireless Controller
+
+Configure the Controller With the Startup Wizard
+
+This wizard output is taken from Release 7.4 software, so it might be slightly different in other software releases.
+(Cisco Controller)
+(Cisco Controller)
+
+
+Welcome to the Cisco Wizard Configuration Tool
+Use the '-' character to backup
+
+
+Would you like to terminate autoinstall? [yes]:
+AUTO-INSTALL: starting now...
+rc = 0
+AUTO-INSTALL:no interfaces registered.
+AUTO-INSTALL: process terminated - no configuration loaded
+
+
+System Name [Cisco_b2:19:c4] (31 characters max):WLC
+Enter Administrative User Name (24 characters max): admin
+Enter Administrative Password (3 to 24 characters): *******
+Re-enter Administrative Password                 : *******
+
+Enable Link Aggregation (LAG) [yes][NO]: no
+
+Management Interface IP Address: 10.48.39.212
+Management Interface Netmask: 255.255.255.0
+Management Interface Default Router: 10.48.39.5
+Management Interface VLAN Identifier (0 = untagged): 0
+Management Interface Port Num [1 to 4]: 1
+Management Interface DHCP Server IP Address: 10.48.39.5
+
+Virtual Gateway IP Address: 1.1.1.1
+
+Multicast IP Address: 239.1.1.1
+
+Mobility/RF Group Name: Nico
+
+Network Name (SSID): none
+
+Configure DHCP Bridging Mode [yes][NO]: no
+
+Allow Static IP Addresses [YES][no]: yes
+
+Configure a RADIUS Server now? [YES][no]: no
+Warning! The default WLAN security policy requires a RADIUS server.
+Please see documentation for more details.
+
+Enter Country Code list (enter 'help' for a list of countries) [US]: BE
+
+Enable 802.11b Network [YES][no]: yes
+Enable 802.11a Network [YES][no]: yes
+Enable 802.11g Network [YES][no]: yes
+Enable Auto-RF [YES][no]: yes
+
+Configure a NTP server now? [YES][no]: yes
+Enter the NTP server's IP address: 10.48.39.33
+Enter a polling interval between 3600 and 604800 secs: 3600
+
+Configuration correct? If yes, system will save it and reset. [yes][NO]: yes
+
+Configuration saved!
+Resetting system with new configuration...

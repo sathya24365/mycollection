@@ -1,0 +1,42 @@
+PsExec64.exe \\lab6546 -w C:\Dropbox\PFlash cmd /K net use * \\diwali\nsid-hyd-04\SDM660.LA.1.0.c2-20202-CHN.INT-1 S@thya2017 /USER:c_satyas /p:YES
+PsExec64.exe \\lab6546 -w C:\Dropbox\PFlash cmd /K net use z: /delete
+
+\\queen\NSID-HYD-02\CI_SDM660.LA.1.0-43791-INT-1
+\\diwali\nsid-hyd-04\TZ.BF.4.0.7-00065-S660AAAAANAAT-1
+
+PsExec64.exe \\lab6546 -w C:\Dropbox\PFlash -i -s cmd /K net use * \\diwali\nsid-hyd-04\SDM660.LA.1.0.c2-20202-CHN.INT-1 S@thya2017 /USER:c_satyas /p:YES
+PsExec64.exe \\lab6546 -w C:\Dropbox\PFlash -i -s cmd /K net use z: /delete
+taskkill /f /im PsExec.exe /t
+
+PsExec64.exe \\lab6546 -w C:\Dropbox\PFlash cmd /K 
+
+PsExec64.exe \\lab6546 -w  C:\Dropbox\Pflash -i -s cmd /K MLoad.pl 6875c0f
+
+
+PsExec64.exe \\lab6546 -i -s C:\Dropbox\Pflash\MLoad.pl 6875c0f
+
+PS C:> PsExec64.exe -s \\lab6546 C:\Dropbox\Pflash\MLoad.pl 6875c0f
+
+
+PsExec.exe \\lab6546 -w  C:\Dropbox\Pflash -i -s cmd /K KEY.bat 6875c0f
+
+
+PsExec.exe \\lab7505 -w  C:\Dropbox\Pflash net use z: \\queen\NSID-HYD-02\CI_SDM660.LA.1.0-43791-INT-1 S@thya2017 /USER:c_satyas /p:YES
+PsExec.exe \\lab6546 -w  C:\Dropbox\Pflash net use y: \\queen\NSID-HYD-02\TZ.BF.4.0.7.c1-00012-S660AAAAANAAT-2 S@thya2017 /USER:c_satyas /p:YES
+***********************************************************************************************************************************************
+PsExec.exe \\lab6546 -w  C:\Dropbox\Pflash cmd /K MLoad.pl 6875c0f
+PsExec.exe \\lab6546 -w  C:\Dropbox\Pflash cmd /C MLoad.pl 6875c0f
+
+
+PsExec.exe \\lab6546 -w  C:\Dropbox\Pflash -i -s cmd /K net use z: /delete
+PsExec.exe \\lab6546 -w  C:\Dropbox\Pflash -i -s cmd /K net use y: /delete
+
+
+
+
+PsExec.exe \\lab6546 net use z: /delete
+
+PsExec.exe \\lab7505 -w  C:\Dropbox\Pflash -i -s net use z: \\queen\NSID-HYD-02\CI_SDM660.LA.1.0-43791-INT-1 S@thya2017 /USER:c_satyas /p:YES
+PsExec.exe \\lab6546 -w  C:\Dropbox\Pflash -i -s net use y: \\queen\NSID-HYD-02\TZ.BF.4.0.7.c1-00012-S660AAAAANAAT-2 S@thya2017 /USER:c_satyas /p:YES
+
+

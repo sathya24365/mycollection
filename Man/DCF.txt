@@ -1,0 +1,38 @@
+Overview of DCF Access Method Distributed Coordination Function is basic MAC protocol that utilizes Listen before talk (LBT) and carrier sense multiple access with collision avoidance approach (CSMA/CA). 
+
+A network using DCF protocol always senses the medium before transmitting any data. Before sending any data station executes Clear Channel Assessment (CCA) and listens to the channel for a DCF Inter Frame Space (DIFS) [5]. 
+
+The station initiates the transmission as soon as it finds the channel is free in this DIFS period, otherwise the station executes a Binary Exponential Backoff Algorithm [6] by which if transmission failed or collision occurs, the station then sets a backoff counter at some random value within a predefined contention window called Backoff time As the medium is idle the counter
+is decremented. Each time the station finds the medium is idle; 
+
+it waits for DIFS and continuously decrements the backoff timer by one unit. A new transmission occurs whenever this counter expires. A station has to wait before transmission and contention window at each station tells about the number of slot times it waits. As the data arrived successfully at
+destination an acknowledgement packet is send after Short Inter Frame Space (SIFS). This ACK packet notify sender that transmitted data frames have successfully received. 
+
+However, if the sender doesn’t receive any acknowledgement form receiver then it assumes that the frame was lost and schedules retransmission and  starts the Backoff process again. 
+
+After each successful transmission the contention window is reset to a fixed minimum value. During the channel busy period stations deferred from channel access continue to countdown the time of the deferred backoff instead of selecting new random backoff time after sensing the channel as being idle again. 
+
+In this way deferred stations from channel access are given higher priority as their random backoff time is greater than the other stations. After each successful transmission, backoff process is performed again by station even if there is no MSDU. Now here backoff process is done after transmission
+and that's why this process is called "post backoff".
+
+
+Overview of PCF Access Method Point Coordination Function (PCF) is a Media Access Control (MAC) technique that runs on infrastructure-based networks. 
+
+In PCF access method all the stations access media through single Access Point (AP) that acts as Point Coordinator (PC) [4]. The PC uses polling scheme to determine which station can initiate data transmission.
+
+Stations in the network can optionally participate in PCF and respond to poll received from PC. Such stations are called CFPollable
+stations. 
+
+In PCF enabled BSS the channel access time is divided into beacon intervals, a Contention Free Period (CFP) followed by a Contention Period (CP). 
+In this access mechanism Point Coordinator (PC) hold list of all registered stations to be polled. 
+Stations can transmit data or can receive data from AP only when they are polled. 
+Because each station can transmit in a predetermine order, there is a bounded latency.
+Also the maximum CFP duration for all stations in network can be known and decided by PC called CFP_MAX_duration.
+AP initiates and maintains CFP which periodically transmits a Beacon (B). 
+These beacons contain information about the duration of CFP and CP. 
+The first beacon is transmitted after a CP is transmitted after a PCF Inter Frame Space. 
+When AP sends a CF End control packet (CE), CFP is terminated. 
+The only station allowed to transmit is the one polled by AP during CFP. A station that is polled can transmit data to either AP or any other station in the network.
+If polled station doesn’t have any data, it responds with a NULL packet. 
+
+As shown in Fig. 2 beacon is transmitted by AP to initiate CFP [5]. A poll packet and data both are combined to station 1 after SIFS. As station 1 receive this packet it acknowledges the reception of data packet and respond to the poll by transmitting a data packet to the AP. Now, AP combines a poll packet and data packet to station 2 after it acknowledges data packet received from station 1. Now station 2 acknowledges the packet to AP and transmits data to station 1 and after transmission of CE packet CFP is finished. Also after station 1 received the packet it acknowledged it and CFP ends with transmission of CE packet. 

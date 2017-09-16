@@ -1,0 +1,591 @@
+Frame 10279: 302 bytes on wire (2416 bits), 302 bytes captured (2416 bits) on interface 0
+    Interface id: 0 (\\.\airpcap00)
+    Encapsulation type: IEEE 802.11 plus radiotap radio header (23)
+    Arrival Time: Aug 23, 2017 13:04:44.692890000 India Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1503473684.692890000 seconds
+    [Time delta from previous captured frame: 0.000627000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 25.822980000 seconds]
+    Frame Number: 10279
+    Frame Length: 302 bytes (2416 bits)
+    Capture Length: 302 bytes (2416 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: radiotap:wlan_radio:wlan]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String [truncated]: eth.fcs.status=="Bad" || ip.checksum.status=="Bad" || tcp.checksum.status=="Bad" || udp.checksum.status=="Bad" || sctp.checksum.status=="Bad" || mstp.checksum.status=="Bad" || cdp.checksum.status=="Bad" ||]
+Radiotap Header v0, Length 26
+    Header revision: 0
+    Header pad: 0
+    Header length: 26
+    Present flags
+        Present flags word: 0x0000186f
+            .... .... .... .... .... .... .... ...1 = TSFT: Present
+            .... .... .... .... .... .... .... ..1. = Flags: Present
+            .... .... .... .... .... .... .... .1.. = Rate: Present
+            .... .... .... .... .... .... .... 1... = Channel: Present
+            .... .... .... .... .... .... ...0 .... = FHSS: Absent
+            .... .... .... .... .... .... ..1. .... = dBm Antenna Signal: Present
+            .... .... .... .... .... .... .1.. .... = dBm Antenna Noise: Present
+            .... .... .... .... .... .... 0... .... = Lock Quality: Absent
+            .... .... .... .... .... ...0 .... .... = TX Attenuation: Absent
+            .... .... .... .... .... ..0. .... .... = dB TX Attenuation: Absent
+            .... .... .... .... .... .0.. .... .... = dBm TX Power: Absent
+            .... .... .... .... .... 1... .... .... = Antenna: Present
+            .... .... .... .... ...1 .... .... .... = dB Antenna Signal: Present
+            .... .... .... .... ..0. .... .... .... = dB Antenna Noise: Absent
+            .... .... .... .... .0.. .... .... .... = RX flags: Absent
+            .... .... .... .0.. .... .... .... .... = Channel+: Absent
+            .... .... .... 0... .... .... .... .... = MCS information: Absent
+            .... .... ...0 .... .... .... .... .... = A-MPDU Status: Absent
+            .... .... ..0. .... .... .... .... .... = VHT information: Absent
+            ...0 0000 00.. .... .... .... .... .... = Reserved: 0x00
+            ..0. .... .... .... .... .... .... .... = Radiotap NS next: False
+            .0.. .... .... .... .... .... .... .... = Vendor NS next: False
+            0... .... .... .... .... .... .... .... = Ext: Absent
+    MAC timestamp: 1794547341233
+    Flags: 0x50
+        .... ...0 = CFP: False
+        .... ..0. = Preamble: Long
+        .... .0.. = WEP: False
+        .... 0... = Fragmentation: False
+        ...1 .... = FCS at end: True
+        ..0. .... = Data Pad: False
+        .1.. .... = Bad FCS: True
+        0... .... = Short GI: False
+    Data Rate: 6.0 Mb/s
+    Channel frequency: 5180 [A 36]
+    Channel flags: 0x0140, Orthogonal Frequency-Division Multiplexing (OFDM), 5 GHz spectrum
+        .... .... ...0 .... = Turbo: False
+        .... .... ..0. .... = Complementary Code Keying (CCK): False
+        .... .... .1.. .... = Orthogonal Frequency-Division Multiplexing (OFDM): True
+        .... .... 0... .... = 2 GHz spectrum: False
+        .... ...1 .... .... = 5 GHz spectrum: True
+        .... ..0. .... .... = Passive: False
+        .... .0.. .... .... = Dynamic CCK-OFDM: False
+        .... 0... .... .... = Gaussian Frequency Shift Keying (GFSK): False
+        ...0 .... .... .... = GSM (900MHz): False
+        ..0. .... .... .... = Static Turbo: False
+        .0.. .... .... .... = Half Rate Channel (10MHz Channel Width): False
+        0... .... .... .... = Quarter Rate Channel (5MHz Channel Width): False
+    SSI Signal: -60 dBm
+    SSI Noise: -73 dBm
+    Antenna: 0
+    SSI Signal: 13 dB
+802.11 radio information
+    PHY type: 802.11a (5)
+    Turbo type: Non-turbo (0)
+    Data rate: 6.0 Mb/s
+    Channel: 36
+    Frequency: 5180 MHz
+    Signal strength (dBm): -60 dBm
+    Noise level (dBm): -73 dBm
+    TSF timestamp: 1794547341233
+    [Duration: 392 us]
+        [Preamble: 20 us]
+IEEE 802.11 Beacon frame, Flags: .........
+    Type/Subtype: Beacon frame (0x0008)
+    Frame Control Field: 0x8000
+        .... ..00 = Version: 0
+        .... 00.. = Type: Management frame (0)
+        1000 .... = Subtype: 8
+        Flags: 0x00
+            .... ..00 = DS status: Not leaving DS or network is operating in AD-HOC mode (To DS: 0 From DS: 0) (0x0)
+            .... .0.. = More Fragments: This is the last fragment
+            .... 0... = Retry: Frame is not being retransmitted
+            ...0 .... = PWR MGT: STA will stay up
+            ..0. .... = More Data: No data buffered
+            .0.. .... = Protected flag: Data is not protected
+            0... .... = Order flag: Not strictly ordered
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Transmitter address: Qualcomm_02:1f:22 (8c:fd:f0:02:1f:22)
+    Source address: Qualcomm_02:1f:22 (8c:fd:f0:02:1f:22)
+    BSS Id: Qualcomm_02:1f:22 (8c:fd:f0:02:1f:22)
+    .... .... .... 0000 = Fragment number: 0
+    1000 0000 1010 .... = Sequence number: 2058
+    Frame check sequence: 0x774bef6e [incorrect, should be 0xac632e9c]
+    [FCS Status: Bad]
+IEEE 802.11 wireless LAN management frame
+    Fixed parameters (12 bytes)
+        Timestamp: 0x000000000a16d039
+        Beacon Interval: 0.102400 [Seconds]
+        Capabilities Information: 0x0501
+            .... .... .... ...1 = ESS capabilities: Transmitter is an AP
+            .... .... .... ..0. = IBSS status: Transmitter belongs to a BSS
+            .... ..0. .... 00.. = CFP participation capabilities: No point coordinator at AP (0x00)
+            .... .... ...0 .... = Privacy: AP/STA cannot support WEP
+            .... .... ..0. .... = Short Preamble: Not Allowed
+            .... .... .0.. .... = PBCC: Not Allowed
+            .... .... 0... .... = Channel Agility: Not in use
+            .... ...1 .... .... = Spectrum Management: Implemented
+            .... .1.. .... .... = Short Slot Time: In use
+            .... 0... .... .... = Automatic Power Save Delivery: Not Implemented
+            ...0 .... .... .... = Radio Measurement: Not Implemented
+            ..0. .... .... .... = DSSS-OFDM: Not Allowed
+            .0.. .... .... .... = Delayed Block Ack: Not Implemented
+            0... .... .... .... = Immediate Block Ack: Not Implemented
+    Tagged parameters (236 bytes)
+        Tag: SSID parameter set: SNS_CSA
+            Tag Number: SSID parameter set (0)
+            Tag length: 7
+            SSID: SNS_CSA
+        Tag: Supported Rates 6(B), 9, 12(B), 18, 24(B), 36, 48, 54, [Mbit/sec]
+            Tag Number: Supported Rates (1)
+            Tag length: 8
+            Supported Rates: 6(B) (0x8c)
+            Supported Rates: 9 (0x12)
+            Supported Rates: 12(B) (0x98)
+            Supported Rates: 18 (0x24)
+            Supported Rates: 24(B) (0xb0)
+            Supported Rates: 36 (0x48)
+            Supported Rates: 48 (0x60)
+            Supported Rates: 54 (0x6c)
+        Tag: DS Parameter set: Current Channel: 36
+            Tag Number: DS Parameter set (3)
+            Tag length: 1
+            Current Channel: 36
+        Tag: Traffic Indication Map (TIM): DTIM 0 of 0 bitmap
+            Tag Number: Traffic Indication Map (TIM) (5)
+            Tag length: 4
+            DTIM count: 0
+            DTIM period: 1
+            Bitmap control: 0x00
+                .... ...0 = Multicast: False
+                0000 000. = Bitmap Offset: 0x00
+            Partial Virtual Bitmap: 00
+        Tag: Country Information: Country Code US, Environment Any
+            Tag Number: Country Information (7)
+            Tag length: 76
+            Code: US
+            Environment: Any (0x20)
+            Country Info: First Channel Number: 36, Number of Channels: 1, Maximum Transmit Power Level: 30 dBm
+                First Channel Number: 36
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 30
+            Country Info: First Channel Number: 40, Number of Channels: 1, Maximum Transmit Power Level: 30 dBm
+                First Channel Number: 40
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 30
+            Country Info: First Channel Number: 44, Number of Channels: 97, Maximum Transmit Power Level: 96 dBm
+                First Channel Number: 44
+                Number of Channels: 97
+                Maximum Transmit Power Level (in dBm): 96
+            Country Info: First Channel Number: 50, Number of Channels: 1, Maximum Transmit Power Level: 30 dBm
+                First Channel Number: 50
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 30
+            Country Info: First Channel Number: 84, Number of Channels: 79, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 84
+                Number of Channels: 79
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 56, Number of Channels: 161, Maximum Transmit Power Level: 250 dBm
+                First Channel Number: 56
+                Number of Channels: 161
+                Maximum Transmit Power Level (in dBm): 250
+            Country Info: First Channel Number: 59, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 59
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 64, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 64
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 100, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 100
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 104, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 104
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 108, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 108
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 112, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 112
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 116, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 116
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 120, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 120
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 124, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 124
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 128, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 128
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 132, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 132
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 136, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 136
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 140, Number of Channels: 1, Maximum Transmit Power Level: 24 dBm
+                First Channel Number: 140
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 24
+            Country Info: First Channel Number: 149, Number of Channels: 1, Maximum Transmit Power Level: 30 dBm
+                First Channel Number: 149
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 30
+            Country Info: First Channel Number: 153, Number of Channels: 1, Maximum Transmit Power Level: 30 dBm
+                First Channel Number: 153
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 30
+            Country Info: First Channel Number: 157, Number of Channels: 1, Maximum Transmit Power Level: 30 dBm
+                First Channel Number: 157
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 30
+            Country Info: First Channel Number: 161, Number of Channels: 1, Maximum Transmit Power Level: 30 dBm
+                First Channel Number: 161
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 30
+            Country Info: First Channel Number: 165, Number of Channels: 1, Maximum Transmit Power Level: 30 dBm
+                First Channel Number: 165
+                Number of Channels: 1
+                Maximum Transmit Power Level (in dBm): 30
+            Padding: 00
+        Tag: Power Constraint: 3
+            Tag Number: Power Constraint (32)
+            Tag length: 1
+            Local Power Constraint: 3
+        Tag: HT Capabilities (802.11n D1.10)
+            Tag Number: HT Capabilities (802.11n D1.10) (45)
+            Tag length: 26
+            HT Capabilities Info: 0x09ad
+                .... .... .... ...1 = HT LDPC coding capability: Transmitter supports receiving LDPC coded packets
+                .... .... .... ..0. = HT Support channel width: Transmitter only supports 20MHz operation
+                .... .... .... 11.. = HT SM Power Save: SM Power Save disabled (0x3)
+                .... .... ...0 .... = HT Green Field: Transmitter is not able to receive PPDUs with Green Field (GF) preamble
+                .... .... ..1. .... = HT Short GI for 20MHz: Supported
+                .... .... .0.. .... = HT Short GI for 40MHz: Not supported
+                .... .... 1... .... = HT Tx STBC: Supported
+                .... ..01 .... .... = HT Rx STBC: Rx support of one spatial stream (0x1)
+                .... .0.. .... .... = HT Delayed Block ACK: Transmitter does not support HT-Delayed BlockAck
+                .... 1... .... .... = HT Max A-MSDU length: 7935 bytes
+                ...0 .... .... .... = HT DSSS/CCK mode in 40MHz: Won't/Can't use of DSSS/CCK in 40 MHz
+                ..0. .... .... .... = HT PSMP Support: Won't/Can't support PSMP operation
+                .0.. .... .... .... = HT Forty MHz Intolerant: Use of 40 MHz transmissions unrestricted/allowed
+                0... .... .... .... = HT L-SIG TXOP Protection support: Not supported
+            A-MPDU Parameters: 0x03
+                .... ..11 = Maximum Rx A-MPDU Length: 0x3 (65535[Bytes])
+                ...0 00.. = MPDU Density: no restriction (0x0)
+                000. .... = Reserved: 0x0
+            Rx Supported Modulation and Coding Scheme Set: MCS Set
+                Rx Modulation and Coding Scheme (One bit per modulation): 4 spatial streams
+                    .... .... .... .... .... .... 1111 1111 = Rx Bitmask Bits 0-7: 0xff
+                    .... .... .... .... 1111 1111 .... .... = Rx Bitmask Bits 8-15: 0xff
+                    .... .... 1111 1111 .... .... .... .... = Rx Bitmask Bits 16-23: 0xff
+                    1111 1111 .... .... .... .... .... .... = Rx Bitmask Bits 24-31: 0xff
+                    .... .... .... .... .... .... .... ...0 = Rx Bitmask Bit 32: 0x0
+                    .... .... .... .... .... .... .000 000. = Rx Bitmask Bits 33-38: 0x00
+                    .... .... ...0 0000 0000 0000 0... .... = Rx Bitmask Bits 39-52: 0x0000
+                    ...0 0000 0000 0000 0000 0000 000. .... = Rx Bitmask Bits 53-76: 0x000000
+                .... ..00 0000 0000 = Highest Supported Data Rate: 0x000
+                .... .... .... ...0 = Tx Supported MCS Set: Not defined
+                .... .... .... ..0. = Tx and Rx MCS Set: Equal
+                .... .... .... 01.. = Maximum Number of Tx Spatial Streams Supported: 0x1, TX MCS Set Not Defined
+                .... .... ...1 .... = Unequal Modulation: Supported
+            HT Extended Capabilities: 0x0000
+                .... .... .... ...0 = Transmitter supports PCO: Not supported
+                .... .... .... .00. = Time needed to transition between 20MHz and 40MHz: No Transition (0x0)
+                .... ..00 .... .... = MCS Feedback capability: STA does not provide MCS feedback (0x0)
+                .... .0.. .... .... = High Throughput: Not supported
+                .... 0... .... .... = Reverse Direction Responder: Not supported
+            Transmit Beam Forming (TxBF) Capabilities: 0x00000000
+                .... .... .... .... .... .... .... ...0 = Transmit Beamforming: Not supported
+                .... .... .... .... .... .... .... ..0. = Receive Staggered Sounding: Not supported
+                .... .... .... .... .... .... .... .0.. = Transmit Staggered Sounding: Not supported
+                .... .... .... .... .... .... .... 0... = Receive Null Data packet (NDP): Not supported
+                .... .... .... .... .... .... ...0 .... = Transmit Null Data packet (NDP): Not supported
+                .... .... .... .... .... .... ..0. .... = Implicit TxBF capable: Not supported
+                .... .... .... .... .... .... 00.. .... = Calibration: incapable (0x0)
+                .... .... .... .... .... ...0 .... .... = STA can apply TxBF using CSI explicit feedback: Not supported
+                .... .... .... .... .... ..0. .... .... = STA can apply TxBF using uncompressed beamforming feedback matrix: Not supported
+                .... .... .... .... .... .0.. .... .... = STA can apply TxBF using compressed beamforming feedback matrix: Not supported
+                .... .... .... .... ...0 0... .... .... = Receiver can return explicit CSI feedback: not supported (0x0)
+                .... .... .... .... .00. .... .... .... = Receiver can return explicit uncompressed Beamforming Feedback Matrix: not supported (0x0)
+                .... .... .... ...0 0... .... .... .... = STA can compress and use compressed Beamforming Feedback Matrix: not supported (0x0)
+                .... .... .... .00. .... .... .... .... = Minimal grouping used for explicit feedback reports: No grouping supported (0x0)
+                .... .... ...0 0... .... .... .... .... = Max antennae STA can support when CSI feedback required: 1 TX antenna sounding (0x0)
+                .... .... .00. .... .... .... .... .... = Max antennae STA can support when uncompressed Beamforming feedback required: 1 TX antenna sounding (0x0)
+                .... ...0 0... .... .... .... .... .... = Max antennae STA can support when compressed Beamforming feedback required: 1 TX antenna sounding (0x0)
+                .... .00. .... .... .... .... .... .... = Maximum number of rows of CSI explicit feedback: 1 row of CSI (0x0)
+                ...0 0... .... .... .... .... .... .... = Maximum number of space time streams for which channel dimensions can be simultaneously estimated: 1 space time stream (0x0)
+                000. .... .... .... .... .... .... .... = Reserved: 0x0
+            Antenna Selection (ASEL) Capabilities: 0x00
+                .... ...0 = Antenna Selection Capable: Not supported
+                .... ..0. = Explicit CSI Feedback Based Tx ASEL: Not supported
+                .... .0.. = Antenna Indices Feedback Based Tx ASEL: Not supported
+                .... 0... = Explicit CSI Feedback: Not supported
+                ...0 .... = Antenna Indices Feedback: Not supported
+                ..0. .... = Rx ASEL: Not supported
+                .0.. .... = Tx Sounding PPDUs: Not supported
+                0... .... = Reserved: 0x0
+        Tag: HT Information (802.11n D1.10)
+            Tag Number: HT Information (802.11n D1.10) (61)
+            Tag length: 22
+            Primary Channel: 36
+            HT Information Subset (1 of 3): 0x00
+                .... ..00 = Secondary channel offset: No secondary channel (0x0)
+                .... .0.. = Supported channel width: 20 MHz channel width only
+                .... 0... = Reduced Interframe Spacing (RIFS): Prohibited
+                ...0 .... = Power Save Multi-Poll (PSMP) stations only: Association requests are accepted regardless of PSMP capability
+                000. .... = Shortest service interval: 5 ms (0x0)
+            HT Information Subset (2 of 3): 0x0000
+                .... .... .... ..00 = Operating mode of BSS: All STAs are - 20/40 MHz HT or in a 20/40 MHz BSS or are 20 MHz HT in a 20 MHz BSS (0x0)
+                .... .... .... .0.. = Non-greenfield STAs present: All associated STAs are greenfield capable
+                .... .... .... 0... = Transmit burst limit: No limit
+                .... .... ...0 .... = OBSS non-HT STAs present: Use of protection for non-HT STAs by overlapping BSSs is not needed
+                0000 0000 000. .... = Reserved: 0x000
+            HT Information Subset (3 of 3): 0x0000
+                .... .... ..00 0000 = Reserved: 0x00
+                .... .... .0.. .... = Dual beacon: No second beacon is transmitted
+                .... .... 0... .... = Dual Clear To Send (CTS) protection: Not required
+                .... ...0 .... .... = Beacon ID: Primary beacon
+                .... ..0. .... .... = L-SIG TXOP Protection Full Support: One or more HT STAs in the BSS do not support L-SIG TXOP protection
+                .... .0.. .... .... = Phased Coexistence Operation (PCO): Inactive
+                .... 0... .... .... = Phased Coexistence Operation (PCO) Phase: Switch to or continue 20 MHz phase
+                0000 .... .... .... = Reserved: 0x0
+            Rx Supported Modulation and Coding Scheme Set: Basic MCS Set
+                Rx Modulation and Coding Scheme (One bit per modulation): Reserved:8
+                    .... .... .... .... .... .... 0000 0000 = Rx Bitmask Bits 0-7: 0x00
+                    .... .... .... .... 0000 0000 .... .... = Rx Bitmask Bits 8-15: 0x00
+                    .... .... 0000 0000 .... .... .... .... = Rx Bitmask Bits 16-23: 0x00
+                    0000 0000 .... .... .... .... .... .... = Rx Bitmask Bits 24-31: 0x00
+                    .... .... .... .... .... .... .... ...0 = Rx Bitmask Bit 32: 0x0
+                    .... .... .... .... .... .... .000 000. = Rx Bitmask Bits 33-38: 0x00
+                    .... .... ...0 0000 0000 0000 0... .... = Rx Bitmask Bits 39-52: 0x0000
+                    ...0 0000 0000 0000 0000 0000 000. .... = Rx Bitmask Bits 53-76: 0x000000
+                .... ..00 0000 0000 = Highest Supported Data Rate: 0x000
+                .... .... .... ...0 = Tx Supported MCS Set: Not defined
+                .... .... .... ..0. = Tx and Rx MCS Set: Equal
+                .... .... .... 00.. = Maximum Number of Tx Spatial Streams Supported: 0x0, TX MCS Set Not Defined
+                .... .... ...0 .... = Unequal Modulation: Not supported
+        Tag: Extended Capabilities (8 octets)
+            Tag Number: Extended Capabilities (127)
+            Tag length: 8
+            Extended Capabilities: 0x00 (octet 1)
+                .... ...0 = 20/40 BSS Coexistence Management Support: Not supported
+                .... ..0. = On-demand beacon: Not supported
+                .... .0.. = Extended Channel Switching: Not supported
+                .... 0... = WAVE indication: Not supported
+                ...0 .... = PSMP Capability: Not supported
+                ..0. .... = Reserved: 0x0
+                .0.. .... = S-PSMP Support: Not supported
+                0... .... = Event: Not supported
+            Extended Capabilities: 0x00 (octet 2)
+                .... ...0 = Diagnostics: Not supported
+                .... ..0. = Multicast Diagnostics: Not supported
+                .... .0.. = Location Tracking: Not supported
+                .... 0... = FMS: Not supported
+                ...0 .... = Proxy ARP Service: Not supported
+                ..0. .... = Collocated Interference Reporting: Not supported
+                .0.. .... = Civic Location: Not supported
+                0... .... = Geospatial Location: Not supported
+            Extended Capabilities: 0x0f (octet 3)
+                .... ...1 = TFS: Supported
+                .... ..1. = WNM-Sleep Mode: Supported
+                .... .1.. = TIM Broadcast: Supported
+                .... 1... = BSS Transition: Supported
+                ...0 .... = QoS Traffic Capability: Not supported
+                ..0. .... = AC Station Count: Not supported
+                .0.. .... = Multiple BSSID: Not supported
+                0... .... = Timing Measurement: Not supported
+            Extended Capabilities: 0x00 (octet 4)
+                .... ...0 = Channel Usage: Not supported
+                .... ..0. = SSID List: Not supported
+                .... .0.. = DMS: Not supported
+                .... 0... = UTC TSF Offset: Not supported
+                ...0 .... = Peer U-APSD Buffer STA Support: Not supported
+                ..0. .... = TDLS Peer PSM Support: Not supported
+                .0.. .... = TDLS channel switching: Not supported
+                0... .... = Interworking: Not supported
+            Extended Capabilities: 0x00 (octet 5)
+                .... ...0 = QoS Map: Not supported
+                .... ..0. = EBR: Not supported
+                .... .0.. = SSPN Interface: Not supported
+                .... 0... = Reserved: 0x0
+                ...0 .... = MSGCF Capability: Not supported
+                ..0. .... = TDLS support: Not supported
+                .0.. .... = TDLS Prohibited: Not supported
+                0... .... = TDLS Channel Switching Prohibited: Not supported
+            Extended Capabilities: 0x00 (octet 6)
+                .... ...0 = Reject Unadmitted Frame: Not supported
+                .... 000. = Service Interval Granularity: 5 ms (0)
+                ...0 .... = Identifier Location: Not supported
+                ..0. .... = U-APSD Coexistence: Not supported
+                .0.. .... = WNM-Notification: Not supported
+                0... .... = QAB Capability: 0x0
+            Extended Capabilities: 0x00 (octet 7)
+                .... ...0 = UTF-8 SSID: Not supported
+                0000 000. = Reserved: 0x00
+            Extended Capabilities: 0x40 (octet 8)
+                ..0. .... = TDLS Wider Bandwidth: Not supported
+                .1.. .... = Operating Mode Notification: Supported
+                0... .... = Max Number Of MSDUs In A-MSDU: 0
+                ...0 0000 = Reserved: 0x00
+        Tag: VHT Capabilities (IEEE Std 802.11ac/D3.1)
+            Tag Number: VHT Capabilities (IEEE Std 802.11ac/D3.1) (191)
+            Tag length: 12
+            VHT Capabilities Info: 0x338b79f2
+                .... .... .... .... .... .... .... ..10 = Maximum MPDU Length: 11 454 (0x2)
+                .... .... .... .... .... .... .... 00.. = Supported Channel Width Set: Neither 160MHz nor 80+80 supported (0x0)
+                .... .... .... .... .... .... ...1 .... = Rx LDPC: Supported
+                .... .... .... .... .... .... ..1. .... = Short GI for 80MHz: Supported
+                .... .... .... .... .... .... .1.. .... = Short GI for 160MHz and 80+80MHz: Supported
+                .... .... .... .... .... .... 1... .... = Tx STBC: Supported
+                .... .... .... .... .... .001 .... .... = Rx STBC: 1 Spatial Stream Supported (0x1)
+                .... .... .... .... .... 1... .... .... = SU Beam-former Capable: Supported
+                .... .... .... .... ...1 .... .... .... = SU Beam-formee Capable: Supported
+                .... .... .... .... 011. .... .... .... = Compressed Steering Number of Beamformer Antennas Supported: 4 (0x3)
+                .... .... .... .011 .... .... .... .... = Number of Sounding Dimensions: 4 (0x3)
+                .... .... .... 1... .... .... .... .... = MU Beam-former Capable: Supported
+                .... .... ...0 .... .... .... .... .... = MU Beam-formee Capable: Not supported
+                .... .... ..0. .... .... .... .... .... = VHT TXOP PS: Not supported
+                .... .... .0.. .... .... .... .... .... = +HTC-VHT Capable (VHT variant HT Control field): Not supported
+                .... ..11 1... .... .... .... .... .... = Max A-MPDU Length: 1 048 575 (0x7)
+                .... 00.. .... .... .... .... .... .... = VHT Link Adaptation: No Feedback (0x0)
+                ...1 .... .... .... .... .... .... .... = Rx Antenna Pattern Consistency: Supported
+                ..1. .... .... .... .... .... .... .... = Tx Antenna Pattern Consistency: Supported
+                00.. .... .... .... .... .... .... .... = Reserved: False
+            VHT Supported MCS Set
+                Rx MCS Map: 0xffaa
+                    .... .... .... ..10 = Rx 1 SS: MCS 0-9 (0x2)
+                    .... .... .... 10.. = Rx 2 SS: MCS 0-9 (0x2)
+                    .... .... ..10 .... = Rx 3 SS: MCS 0-9 (0x2)
+                    .... .... 10.. .... = Rx 4 SS: MCS 0-9 (0x2)
+                    .... ..11 .... .... = Rx 5 SS: Not Supported (0x3)
+                    .... 11.. .... .... = Rx 6 SS: Not Supported (0x3)
+                    ..11 .... .... .... = Rx 7 SS: Not Supported (0x3)
+                    11.. .... .... .... = Rx 8 SS: Not Supported (0x3)
+                ...0 0000 0000 0000 = Rx Highest Long GI Data Rate (in Mb/s, 0 = subfield not in use): 0x0000
+                Tx MCS Map: 0xffaa
+                    .... .... .... ..10 = Tx 1 SS: MCS 0-9 (0x2)
+                    .... .... .... 10.. = Tx 2 SS: MCS 0-9 (0x2)
+                    .... .... ..10 .... = Tx 3 SS: MCS 0-9 (0x2)
+                    .... .... 10.. .... = Tx 4 SS: MCS 0-9 (0x2)
+                    .... ..11 .... .... = Tx 5 SS: Not Supported (0x3)
+                    .... 11.. .... .... = Tx 6 SS: Not Supported (0x3)
+                    ..11 .... .... .... = Tx 7 SS: Not Supported (0x3)
+                    11.. .... .... .... = Tx 8 SS: Not Supported (0x3)
+                ...0 0000 0000 0000 = Tx Highest Long GI Data Rate  (in Mb/s, 0 = subfield not in use): 0x0000
+        Tag: VHT Operation (IEEE Std 802.11ac/D3.1)
+            Tag Number: VHT Operation (IEEE Std 802.11ac/D3.1) (192)
+            Tag length: 5
+            VHT Operation Info
+                Channel Width: 20 MHz or 40 MHz (0x00)
+                Channel Center Segment 0: 0
+                Channel Center Segment 1: 0
+            Basic MCS Map: 0xfffc
+                .... .... .... ..00 = Basic 1 SS: MCS 0-7 (0x0)
+                .... .... .... 11.. = Basic 2 SS: Not Supported (0x3)
+                .... .... ..11 .... = Basic 3 SS: Not Supported (0x3)
+                .... .... 11.. .... = Basic 4 SS: Not Supported (0x3)
+                .... ..11 .... .... = Basic 5 SS: Not Supported (0x3)
+                .... 11.. .... .... = Basic 6 SS: Not Supported (0x3)
+                ..11 .... .... .... = Basic 7 SS: Not Supported (0x3)
+                11.. .... .... .... = Basic 8 SS: Not Supported (0x3)
+        Tag: VHT Tx Power Envelope (IEEE Std 802.11ac/D5.0)
+            Tag Number: VHT Tx Power Envelope (IEEE Std 802.11ac/D5.0) (195)
+            Tag length: 5
+            Tx Pwr Info: 0x03
+                .... .011 = Max Tx Pwr Count: 3
+                ..00 0... = Max Tx Pwr Unit Interpretation: EIRP (0)
+                00.. .... = Reserved: 0
+            Local Max Tx Pwr Constraint 20MHz: -30.0 dBm
+            Local Max Tx Pwr Constraint 40MHz: -30.0 dBm
+            Local Max Tx Pwr Constraint 80MHz: -30.0 dBm
+            Local Max Tx Pwr Constraint 160MHz/80+80 MHz: -30.0 dBm
+        Tag: Vendor Specific: Microsof: WMM/WME: Parameter Element
+            Tag Number: Vendor Specific (221)
+            Tag length: 24
+            OUI: 00-50-f2 (Microsof)
+            Vendor Specific OUI Type: 2
+            Type: WMM/WME (0x02)
+            WME Subtype: Parameter Element (1)
+            WME Version: 1
+            WME QoS Info: 0x80
+                1... .... = U-APSD: Enabled
+                .... 0000 = Parameter Set Count: 0x0
+                .000 .... = Reserved: 0x0
+            Reserved: 00
+            Ac Parameters ACI 0 (Best Effort), ACM no, AIFSN 3, ECWmin/max 4/10 (CWmin/max 15/1023), TXOP 0
+                ACI / AIFSN Field: 0x03
+                    .00. .... = ACI: Best Effort (0)
+                    ...0 .... = Admission Control Mandatory: No
+                    .... 0011 = AIFSN: 3
+                    0... .... = Reserved: 0
+                ECW: 0xa4
+                    1010 .... = ECW Max: 10
+                    .... 0100 = ECW Min: 4
+                    CW Max: 1023
+                    CW Min: 15
+                TXOP Limit: 0
+            Ac Parameters ACI 1 (Background), ACM no, AIFSN 7, ECWmin/max 4/10 (CWmin/max 15/1023), TXOP 0
+                ACI / AIFSN Field: 0x27
+                    .01. .... = ACI: Background (1)
+                    ...0 .... = Admission Control Mandatory: No
+                    .... 0111 = AIFSN: 7
+                    0... .... = Reserved: 0
+                ECW: 0xa4
+                    1010 .... = ECW Max: 10
+                    .... 0100 = ECW Min: 4
+                    CW Max: 1023
+                    CW Min: 15
+                TXOP Limit: 0
+            Ac Parameters ACI 2 (Video), ACM no, AIFSN 2, ECWmin/max 3/4 (CWmin/max 7/15), TXOP 94
+                ACI / AIFSN Field: 0x42
+                    .10. .... = ACI: Video (2)
+                    ...0 .... = Admission Control Mandatory: No
+                    .... 0010 = AIFSN: 2
+                    0... .... = Reserved: 0
+                ECW: 0x43
+                    0100 .... = ECW Max: 4
+                    .... 0011 = ECW Min: 3
+                    CW Max: 15
+                    CW Min: 7
+                TXOP Limit: 94
+            Ac Parameters ACI 3 (Voice), ACM no, AIFSN 2, ECWmin/max 2/3 (CWmin/max 3/7), TXOP 47
+                ACI / AIFSN Field: 0x62
+                    .11. .... = ACI: Voice (3)
+                    ...0 .... = Admission Control Mandatory: No
+                    .... 0010 = AIFSN: 2
+                    0... .... = Reserved: 0
+                ECW: 0x32
+                    0011 .... = ECW Max: 3
+                    .... 0010 = ECW Min: 2
+                    CW Max: 7
+                    CW Min: 3
+                TXOP Limit: 47
+        Tag: Vendor Specific: AtherosC: Advanced Capability
+            Tag Number: Vendor Specific (221)
+            Tag length: 9
+            OUI: 00-03-7f (AtherosC)
+            Vendor Specific OUI Type: 1
+            Type: Advanced Capability (0x01)
+            Subtype: 0x01
+            Version: 0x00
+            Capabilities: 0x00
+                .... ...0 = Turbo Prime: False
+                .... ..0. = Compression: False
+                .... .0.. = Fast Frames: False
+                .... 0... = eXtended Range: False
+                ...0 .... = Advanced Radar: False
+                ..0. .... = Burst: False
+                .0.. .... = CWMin tuning: False
+                0... .... = Boost: False
+            Default key index: 0x7fff

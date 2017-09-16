@@ -1,0 +1,11 @@
+1.Back to Back Scan  - Time delay between scans?
+2.Connect Disconnect 2G - Time delay between connect/disconnect?
+3.Connect Disconnect 5G - Time delay between connect/disconnect?
+4.Connect Disconnect 2G/5G - Time delay between connect/disconnect?
+5.Connect 2G TX Packet Disconnect - No.of pkts and time delay?
+6.Connect 5G TX Packet Disconnect - No.of pkts and time delay?
+7.SAP ON STA Scan Connect Disconnect - limitation to be called out. 
+
+
+
+

@@ -1,0 +1,190 @@
+Frame 80: 193 bytes on wire (1544 bits), 193 bytes captured (1544 bits) on interface 0
+    Interface id: 0 (\\.\airpcap00)
+    Encapsulation type: IEEE 802.11 plus radiotap radio header (23)
+    Arrival Time: Aug 13, 2017 10:31:27.163169000 India Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1502600487.163169000 seconds
+    [Time delta from previous captured frame: 0.025991000 seconds]
+    [Time delta from previous displayed frame: 0.025991000 seconds]
+    [Time since reference or first frame: 2.811043000 seconds]
+    Frame Number: 80
+    Frame Length: 193 bytes (1544 bits)
+    Capture Length: 193 bytes (1544 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: radiotap:wlan_radio:wlan:llc:ip:udp:mndp]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Radiotap Header v0, Length 26
+    Header revision: 0
+    Header pad: 0
+    Header length: 26
+    Present flags
+        Present flags word: 0x0000186f
+            .... .... .... .... .... .... .... ...1 = TSFT: Present
+            .... .... .... .... .... .... .... ..1. = Flags: Present
+            .... .... .... .... .... .... .... .1.. = Rate: Present
+            .... .... .... .... .... .... .... 1... = Channel: Present
+            .... .... .... .... .... .... ...0 .... = FHSS: Absent
+            .... .... .... .... .... .... ..1. .... = dBm Antenna Signal: Present
+            .... .... .... .... .... .... .1.. .... = dBm Antenna Noise: Present
+            .... .... .... .... .... .... 0... .... = Lock Quality: Absent
+            .... .... .... .... .... ...0 .... .... = TX Attenuation: Absent
+            .... .... .... .... .... ..0. .... .... = dB TX Attenuation: Absent
+            .... .... .... .... .... .0.. .... .... = dBm TX Power: Absent
+            .... .... .... .... .... 1... .... .... = Antenna: Present
+            .... .... .... .... ...1 .... .... .... = dB Antenna Signal: Present
+            .... .... .... .... ..0. .... .... .... = dB Antenna Noise: Absent
+            .... .... .... .... .0.. .... .... .... = RX flags: Absent
+            .... .... .... .0.. .... .... .... .... = Channel+: Absent
+            .... .... .... 0... .... .... .... .... = MCS information: Absent
+            .... .... ...0 .... .... .... .... .... = A-MPDU Status: Absent
+            .... .... ..0. .... .... .... .... .... = VHT information: Absent
+            ...0 0000 00.. .... .... .... .... .... = Reserved: 0x00
+            ..0. .... .... .... .... .... .... .... = Radiotap NS next: False
+            .0.. .... .... .... .... .... .... .... = Vendor NS next: False
+            0... .... .... .... .... .... .... .... = Ext: Absent
+    MAC timestamp: 7325170
+    Flags: 0x10
+        .... ...0 = CFP: False
+        .... ..0. = Preamble: Long
+        .... .0.. = WEP: False
+        .... 0... = Fragmentation: False
+        ...1 .... = FCS at end: True
+        ..0. .... = Data Pad: False
+        .0.. .... = Bad FCS: False
+        0... .... = Short GI: False
+    Data Rate: 1.0 Mb/s
+    Channel frequency: 2437 [BG 6]
+    Channel flags: 0x00a0, Complementary Code Keying (CCK), 2 GHz spectrum
+        .... .... ...0 .... = Turbo: False
+        .... .... ..1. .... = Complementary Code Keying (CCK): True
+        .... .... .0.. .... = Orthogonal Frequency-Division Multiplexing (OFDM): False
+        .... .... 1... .... = 2 GHz spectrum: True
+        .... ...0 .... .... = 5 GHz spectrum: False
+        .... ..0. .... .... = Passive: False
+        .... .0.. .... .... = Dynamic CCK-OFDM: False
+        .... 0... .... .... = Gaussian Frequency Shift Keying (GFSK): False
+        ...0 .... .... .... = GSM (900MHz): False
+        ..0. .... .... .... = Static Turbo: False
+        .0.. .... .... .... = Half Rate Channel (10MHz Channel Width): False
+        0... .... .... .... = Quarter Rate Channel (5MHz Channel Width): False
+    SSI Signal: -81 dBm
+    SSI Noise: -87 dBm
+    Antenna: 0
+    SSI Signal: 6 dB
+802.11 radio information
+    PHY type: 802.11b (4)
+    Short preamble: False
+    Data rate: 1.0 Mb/s
+    Channel: 6
+    Frequency: 2437 MHz
+    Signal strength (dBm): -81 dBm
+    Noise level (dBm): -87 dBm
+    TSF timestamp: 7325170
+    [Duration: 1528 us]
+        [Preamble: 192 us]
+IEEE 802.11 Data, Flags: ......F.C
+    Type/Subtype: Data (0x0020)
+    Frame Control Field: 0x0802
+        .... ..00 = Version: 0
+        .... 10.. = Type: Data frame (2)
+        0000 .... = Subtype: 0
+        Flags: 0x02
+            .... ..10 = DS status: Frame from DS to a STA via AP(To DS: 0 From DS: 1) (0x2)
+            .... .0.. = More Fragments: This is the last fragment
+            .... 0... = Retry: Frame is not being retransmitted
+            ...0 .... = PWR MGT: STA will stay up
+            ..0. .... = More Data: No data buffered
+            .0.. .... = Protected flag: Data is not protected
+            0... .... = Order flag: Not strictly ordered
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Transmitter address: Routerbo_c6:7a:f6 (00:0c:42:c6:7a:f6)
+    Source address: Routerbo_cf:fc:99 (00:0c:42:cf:fc:99)
+    BSS Id: Routerbo_c6:7a:f6 (00:0c:42:c6:7a:f6)
+    STA address: Broadcast (ff:ff:ff:ff:ff:ff)
+    .... .... .... 0000 = Fragment number: 0
+    1000 0001 1010 .... = Sequence number: 2074
+    Frame check sequence: 0x7c445f73 [correct]
+    [FCS Status: Good]
+Logical-Link Control
+    DSAP: SNAP (0xaa)
+        1010 101. = SAP: SNAP
+        .... ...0 = IG Bit: Individual
+    SSAP: SNAP (0xaa)
+        1010 101. = SAP: SNAP
+        .... ...0 = CR Bit: Command
+    Control field: U, func=UI (0x03)
+        000. 00.. = Command: Unnumbered Information (0x00)
+        .... ..11 = Frame type: Unnumbered frame (0x3)
+    Organization Code: Encapsulated Ethernet (0x000000)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.101.7, Dst: 255.255.255.255
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 131
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x14bb [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.101.7
+    Destination: 255.255.255.255
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 60976, Dst Port: 5678
+    Source Port: 60976
+    Destination Port: 5678
+    Length: 111
+    Checksum: 0xecc2 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+Mikrotik Neighbor Discovery Protocol
+    Header Unknown: 0000
+    SeqNo: 1271
+    T 1, L 6: MAC-Address
+        TlvType: 1 = MAC-Address
+        TlvLength: 6
+        MAC-Address: Routerbo_cf:fc:99 (00:0c:42:cf:fc:99)
+    T 5, L 9: Identity
+        TlvType: 5 = Identity
+        TlvLength: 9
+        Identity: BWB-NARNI
+    T 7, L 15: Version
+        TlvType: 7 = Version
+        TlvLength: 15
+        Version: 6.35.2 (stable)
+    T 8, L 7: Platform
+        TlvType: 8 = Platform
+        TlvLength: 7
+        Platform: FirePro
+    T 10, L 4: Uptime
+        TlvType: 10 = Uptime
+        TlvLength: 4
+        Uptime: 76294.000000000 seconds
+    T 11, L 9: Software-ID
+        TlvType: 11 = Software-ID
+        TlvLength: 9
+        Software-ID: WE1I-SMTT
+    T 12, L 5: Board
+        TlvType: 12 = Board
+        TlvLength: 5
+        Board: RB411
+    T 14, L 1: Unpack
+        TlvType: 14 = Unpack
+        TlvLength: 1
+        Unpack: Unknown (0)
+    T 16, L 7: Interface name
+        TlvType: 16 = Interface name
+        TlvLength: 7
+        Interface name: bridge1

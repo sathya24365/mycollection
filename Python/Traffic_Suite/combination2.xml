@@ -1,0 +1,119 @@
+<data>
+	<testsuite number="0">
+	<!--TCP_BIDI_P2P_UDP_BIDI_P2P_TCP_QOS_UL-->
+		<testcase name="tcpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>2772e96d</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.169</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="tcpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>27065e3d</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.217</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="tcpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>27065d2a</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.222</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="tcpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>6e80ac22</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.202</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="tcpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>bbbdc8c2</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.168</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="tcpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>bbbdc887</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.155</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="tcpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>6875c3c</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.228</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="tcpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>2705ec7a</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.128</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="udpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>2772e96d</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.169</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="udpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>27065e3d</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.217</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="udpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>27065d2a</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.222</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="udpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>6e80ac22</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.202</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="udpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>bbbdc8c2</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.168</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="udpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>bbbdc887</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.155</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="udpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>6875c3c</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.228</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+		<testcase name="udpbidi">	
+			<tdls1_sap_go_hwid>0</tdls1_sap_go_hwid>	
+			<tdls2_sta_cl_hwid>2705ec7a</tdls2_sta_cl_hwid>
+			<tdls1_sap_go_pc_ip>192.168.1.106</tdls1_sap_go_pc_ip>
+			<tdls2_sta_cl_sta_ip>192.168.1.128</tdls2_sta_cl_sta_ip>	
+			<rtime>300</rtime>	
+		</testcase>
+	</testsuite>
+</data> 
+
+

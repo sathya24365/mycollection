@@ -1,0 +1,46 @@
+[‎6/‎7/‎2017 8:04 PM] Shruthi Palakurthy: 
+
+\\king\signiant_transfer\from_san\sdm660\SDM660.LA.1.0.c2-20263-INT-1 
+LAB5496
+LAB7297
+
+
+
++hyd.investments
+
+Hi Guys
+
+Checked with Bhabani offline on this, the free service is for ITR 1 and not for ITR 2.
+
+Just FYI, For those having ESOP/ESPP/RSU and dividends, the correct ITR form to use is ITR 2.
+
+Ref:
+•	http://www.vijaypadiyar.in/blog/2016/07/meaning-taxation-of-rsus-esops-and-espps 
+•	https://www.bemoneyaware.com/blog/employee-stock-purchase-plan-or-espp/
+•	https://blog.cleartax.in/taxation-of-rsus-and-how-to-report-them-in-your-income-tax-return/ 
+
+
+
+p4 set p4port=qctp411:1666
+p4 login 
+p4 client -t CRM_WLAN.HL.1.1-00445-QCAHLSW8998MTPL-1 HL.1.0.607-debug
+set p4client=HL.1.0.607-debug
+p4 sync @WLAN.HL.1.0-00607-QCAHLSWMTPL-1
+2013722
+
+p4 set p4port=qctp411:1666
+p4 login 
+p4 client -t CRM_WLAN.HL.1.1-00445-QCAHLSW8998MTPL-1  CRM_WLAN.HL.1.1-00445-QCAHLSW8998MTPL-1-satyas
+set p4client=CRM_WLAN.HL.1.1-00445-QCAHLSW8998MTPL-1_satyas
+p4 sync @CRM_WLAN.HL.1.1-00445-QCAHLSW8998MTPL-1
+
+
+
+
+CRM_WLAN.HL.1.1-00445-QCAHLSW8998MTPL-1 
+
+
+\\lab6610\E\TB1\CI_SDM660.LA.1.0.c2-2023391-INT-1\14\LAB6938\N10N2JJ3W\Bluetooth\010529643
+
+
+\\lab6610\E\TB1\CI_SDM660.LA.1.0.c2-2023391-INT-1\14\LAB6938\N10N2JJ3W\27th_pdt_android_whole.1.log

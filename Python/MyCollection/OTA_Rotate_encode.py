@@ -30,7 +30,8 @@ cwd_2 = "cd ota"
 cwd = os.getcwd()
 
 def minicom_log_monitor(keyword):
-    log = open('minicom_log')
+    #log = open('minicom_log')
+    log = open('minicom_log', encoding = "ISO-8859-1")
     count = 0
     for line in log:
         line = line.rstrip()

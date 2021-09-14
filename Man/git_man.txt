@@ -6,6 +6,9 @@ git push
 git pull
 git clone
 
+
+git remote add origin https://github.com/sathya24365/mycollection.git
+
 ssh -vT git@github.com:sathya24365/mycollection.git
 
 git config --global user.name 'sathya24365'
